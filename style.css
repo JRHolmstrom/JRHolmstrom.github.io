@@ -1,0 +1,27 @@
+body {
+  background-color: linen;
+}
+
+h1 {
+  color: teal;
+}
+
+p {
+  color: teal;
+}
+
+.bigbox {
+  display: block;
+  width: 100%;
+}
+
+.box {
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: lightgray;
+  padding: 20px;
+  width: 80%;
+}
