@@ -26,6 +26,14 @@ p {
   width: 80%;
 }
 
+.flex {
+display: flex;
+justify-content: center;
+width: 83.5%;
+margin-left: auto;
+margin-right: auto;
+}
+
 .smallbox {
   margin: 10px;
   display: block;
@@ -33,6 +41,6 @@ p {
   margin-right: auto;
   text-align: center;
   background-color: lightgray;
-  padding: 15px;
-  width: 20%;
+  padding: 20px;
+  width: 80%;
 }
