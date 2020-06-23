@@ -6,33 +6,49 @@ body {
   margin: 0;
 }
 
-/* Style the top navigation bar */
+img {
+    box-shadow: 2px 5px whitesmoke;
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
 .topnav {
+    display: flex;
+    justify-content: center;
     overflow: hidden;
     background-color: #333;
 }
 
-/* Style the topnav links */
 .topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    padding: 18px 24px;
+    font-size: 20px;
 }
 
-/* Change color on hover */
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
 
-/* Style the content */
+.logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
 .content {
     background-color: #ddd;
     padding: 10px;
-    height: 500px; /* Should be removed. Only for demonstration */
+    height: 650px; 
 }
 
 .flexboxes {
@@ -44,11 +60,11 @@ body {
 
 .boxes {
     display: block;
-    height: 30%;
+    border-radius: 20%;
+    height: 32%;
     width: 30%;
     padding: 10px;
     margin: 15px;
-    justify-content: center;
     background-color: whitesmoke;
     text-decoration: none;
 }
@@ -58,8 +74,19 @@ body {
     color: black;
 }
 
-/* Style the footer */
+.boxicons {
+    display: block;
+    width: 300px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .footer {
-    background-color: #f1f1f1;
+    display: flex;
+    color: white;
+    height: 150px
+    justify-content: center;
+    background-color: #333;
     padding: 10px;
 }
